@@ -1,5 +1,5 @@
 module LookupTable
 
-# Write your package code here.
+include("table.jl")
 
 end

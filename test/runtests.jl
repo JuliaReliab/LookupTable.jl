@@ -1,6 +1,2 @@
-using LookupTable
-using Test
 
-@testset "LookupTable.jl" begin
-    # Write your tests here.
-end
+include("_testsearch.jl")
