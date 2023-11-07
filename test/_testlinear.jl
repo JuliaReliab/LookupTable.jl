@@ -1,12 +1,12 @@
 module TestLinear
 
-using LookupTable: interplinear
+using LookupTable: _getinterp
 using Test
 
 @testset "test01" begin
     x = 0:0.1:1
     y = sin.(x)
-    v = interplinear(0.31, x, y)
+    v = _getinterp(Val(:LinearPointSlope), 0.3, x, y, :BinarySearch)
     @test v == y[4]
 end
 
