@@ -8,7 +8,7 @@ A function for lookup table.
 
 ```julia
 using Pkg
-Pkg.install("https://github.com/JuliaReliab/LookupTable.jl")
+Pkg.add(url="https://github.com/JuliaReliab/LookupTable.jl")
 ```
 
 ## Usage
